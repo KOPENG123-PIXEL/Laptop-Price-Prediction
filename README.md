@@ -88,7 +88,7 @@ Hasilnya menunjukkan bahwa dataset berisi informasi spesifikasi laptop seperti m
 
 df.info()
 
-![alt text](image-2.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-2.png)
 
 Berdasarkan hasil yang diperoleh, dataset terdiri dari 1500 baris data dengan beberapa fitur numerik dan kategorikal. Seluruh kolom memiliki jumlah data yang lengkap sehingga tidak ditemukan missing value pada dataset.
 
