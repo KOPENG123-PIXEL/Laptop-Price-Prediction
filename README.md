@@ -411,7 +411,7 @@ python app.py
 ```
 laptop-price-predictor/
 │
-├── 📓 Prediksi_Harga_Laptop_CRISP_DM.ipynb   # Notebook utama (Google Colab)
+├── 📓 Prediksi_Harga_Laptop.ipynb   # Notebook utama (Google Colab)
 ├── 📊 laptop_price_dataset.csv                 # Dataset laptop
 │
 ├── hf_deployment/                              # File deployment Hugging Face
