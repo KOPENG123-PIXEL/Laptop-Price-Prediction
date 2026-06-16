@@ -82,7 +82,7 @@ Dataset terdiri dari berbagai fitur yang merepresentasikan spesifikasi laptop se
 
 df.head()
 
-![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-1.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-1.png?raw=true)
 
 Hasilnya menunjukkan bahwa dataset berisi informasi spesifikasi laptop seperti merek, prosesor, RAM, penyimpanan, GPU, kapasitas baterai, dan harga laptop yang menjadi target prediksi.
 
