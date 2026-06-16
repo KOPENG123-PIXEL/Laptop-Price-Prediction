@@ -177,7 +177,7 @@ Tahap Data Preparation dilakukan untuk mempersiapkan data sebelum digunakan dala
 
 Outlier merupakan data yang memiliki nilai jauh berbeda dibandingkan mayoritas data lainnya. Keberadaan outlier dapat memengaruhi performa model sehingga dilakukan proses identifikasi dan penghapusan outlier pada fitur numerik.
 
-![Outlier](image-8.png)
+![Outlier](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-8.png)
 
 berkurang dari 1500 data menjadi 1485 data. Penghapusan outlier diharapkan dapat meningkatkan kualitas data dan menghasilkan model yang lebih stabil.
 
@@ -187,13 +187,13 @@ Pada tahap ini dilakukan transformasi fitur untuk menghasilkan representasi data
 
 Feature engineering dilakukan untuk meningkatkan kemampuan model dalam memahami pola yang terdapat pada dataset.
 
-![Feature Engineering](image-9.png)
+![Feature Engineering](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-9.png)
 
 ### Encoding Data Kategorikal
 
 Karena algoritma Machine Learning tidak dapat memproses data kategorikal secara langsung, maka fitur kategorikal dikonversi ke dalam bentuk numerik menggunakan teknik encoding.
 
-![Encoding](image-10.png)
+![Encoding](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-10.png)
 
 Setelah proses encoding selesai, seluruh fitur telah berada dalam format numerik sehingga dapat digunakan pada tahap pemodelan.
 
@@ -201,7 +201,7 @@ Setelah proses encoding selesai, seluruh fitur telah berada dalam format numerik
 
 Dataset kemudian dibagi menjadi data training dan data testing dengan rasio 80:20.
 
-![alt text](image-11.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-11.png)
 
 ---
 
@@ -218,7 +218,7 @@ Model baseline dibangun menggunakan parameter default sebagai acuan awal sebelum
 rf_model = RandomForestRegressor(random_state=42)
 rf_model.fit(X_train, y_train)
 
-![Random Forest](image-12.png)
+![Random Forest](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-12.png)
 
 Hasil evaluasi model baseline menunjukkan bahwa Random Forest mampu mempelajari pola hubungan antara spesifikasi laptop dan harga dengan cukup baik. Namun, masih terdapat peluang untuk meningkatkan performa model melalui proses hyperparameter tuning.
 
@@ -246,7 +246,7 @@ Parameter yang diuji meliputi:
 - min_samples_split
 - min_samples_leaf
 
-![GridSearchCV](image-13.png)
+![GridSearchCV](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-13.png)
 
 Setelah proses pencarian parameter terbaik selesai, model Random Forest dilatih kembali menggunakan kombinasi parameter yang menghasilkan performa paling baik.
 
@@ -322,13 +322,13 @@ Tahap evaluasi dilakukan untuk mengukur performa model yang telah dibangun mengg
 | Random Forest Tuned | 2,85 Juta | 4,54 Juta | 0,8322 |
 | XGBoost | 1,82 Juta | 3,14 Juta | 0,9197 |
 
-![alt text](image-14.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-14.png)
 
 ### Actual vs Predicted
 
 Visualisasi Actual vs Predicted digunakan untuk membandingkan hasil prediksi model dengan nilai harga aktual.
 
-![alt text](image-15.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-15.png)
 
 Grafik menunjukkan bahwa sebagian besar titik berada di sekitar garis diagonal. Hal ini menandakan bahwa model mampu menghasilkan prediksi yang cukup dekat dengan nilai sebenarnya.
 
@@ -336,7 +336,7 @@ Grafik menunjukkan bahwa sebagian besar titik berada di sekitar garis diagonal. 
 
 Feature Importance digunakan untuk mengetahui fitur mana yang paling berpengaruh terhadap prediksi harga laptop.
 
-![alt text](image-16.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-16.png)
 
 Berdasarkan hasil Feature Importance, fitur seperti RAM, kapasitas penyimpanan, prosesor, dan GPU menjadi faktor yang paling berpengaruh dalam menentukan harga laptop.
 
@@ -344,7 +344,7 @@ Berdasarkan hasil Feature Importance, fitur seperti RAM, kapasitas penyimpanan, 
 
 SHAP (*SHapley Additive exPlanations*) digunakan untuk menjelaskan kontribusi setiap fitur terhadap prediksi individual — teknik **Explainable AI (XAI)** yang belum diajarkan di kelas.
 
-![alt text](image-17.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-17.png)
 
 Analisis SHAP memberikan interpretasi yang lebih mendalam mengenai bagaimana setiap fitur memengaruhi hasil prediksi yang dihasilkan oleh model.
 
@@ -424,9 +424,9 @@ laptop-price-predictor/
 └── README.md                                   # Laporan ini
 ```
 
-![alt text](image-18.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-18.png)
 
-![alt text](image-19.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-19.png)
 
 ---
 
