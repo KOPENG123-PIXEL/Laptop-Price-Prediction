@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-![alt text](image.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image.png?raw=true)
 
 Harga laptop dipengaruhi oleh berbagai faktor seperti merek, prosesor, kapasitas RAM, penyimpanan, kartu grafis, ukuran layar, kapasitas baterai, dan sistem operasi yang digunakan. Banyaknya kombinasi spesifikasi menyebabkan harga laptop memiliki rentang yang sangat beragam sehingga diperlukan metode yang dapat membantu memprediksi harga berdasarkan karakteristik perangkat.
 
