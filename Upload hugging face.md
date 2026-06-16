@@ -6,4 +6,4 @@
 - model_metadata
 - requirements
 3. masuk ke hugging face dan buat spacxe baru kemudian upload ke 5 file tadi
-4. masuk ke menu app
+4. masuk ke menu app untuk membuild 
