@@ -82,19 +82,19 @@ Dataset terdiri dari berbagai fitur yang merepresentasikan spesifikasi laptop se
 
 df.head()
 
-(https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-1.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-1.png)
 
 Hasilnya menunjukkan bahwa dataset berisi informasi spesifikasi laptop seperti merek, prosesor, RAM, penyimpanan, GPU, kapasitas baterai, dan harga laptop yang menjadi target prediksi.
 
 df.info()
 
-![df.info](image-2.png)
+![alt text](image-2.png)
 
 Berdasarkan hasil yang diperoleh, dataset terdiri dari 1500 baris data dengan beberapa fitur numerik dan kategorikal. Seluruh kolom memiliki jumlah data yang lengkap sehingga tidak ditemukan missing value pada dataset.
 
 df.describe()
 
-![df.describe](image-3.png)
+![alt text](image-3.png)
 
 Statistik deskriptif memberikan informasi mengenai nilai minimum, maksimum, rata-rata (mean), standar deviasi, serta kuartil dari setiap fitur numerik.
 
@@ -146,7 +146,7 @@ Hasil analisis menunjukkan bahwa dataset berada dalam kondisi yang cukup baik da
 
 Visualisasi distribusi harga laptop dilakukan untuk memahami persebaran data target yang akan diprediksi oleh model.
 
-![distribusi harga laptop](image-5.png)
+![alt text](image-5.png)
 
 Berdasarkan grafik distribusi harga laptop, terlihat bahwa sebagian besar laptop berada pada rentang harga menengah. Selain itu terdapat beberapa laptop dengan harga yang jauh lebih tinggi dibandingkan mayoritas data lainnya. Kondisi ini menunjukkan bahwa distribusi harga tidak sepenuhnya merata sehingga perlu dilakukan penanganan outlier pada tahap selanjutnya.
 
