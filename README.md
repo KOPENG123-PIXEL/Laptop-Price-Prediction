@@ -94,7 +94,7 @@ Berdasarkan hasil yang diperoleh, dataset terdiri dari 1500 baris data dengan be
 
 df.describe()
 
-![alt text](image-3.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-3.png)
 
 Statistik deskriptif memberikan informasi mengenai nilai minimum, maksimum, rata-rata (mean), standar deviasi, serta kuartil dari setiap fitur numerik.
 
@@ -130,7 +130,7 @@ price_idr:	Harga laptop (target prediksi)
 
 Pemeriksaan missing value dilakukan untuk memastikan tidak terdapat data kosong yang dapat memengaruhi proses pelatihan model.
 
-![alt text](image-4.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-4.png)
 
 Hasil pemeriksaan menunjukkan bahwa dataset tidak memiliki missing value sehingga tidak diperlukan proses imputasi data.
 
@@ -146,7 +146,7 @@ Hasil analisis menunjukkan bahwa dataset berada dalam kondisi yang cukup baik da
 
 Visualisasi distribusi harga laptop dilakukan untuk memahami persebaran data target yang akan diprediksi oleh model.
 
-![alt text](image-5.png)
+![alt text](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-5.png)
 
 Berdasarkan grafik distribusi harga laptop, terlihat bahwa sebagian besar laptop berada pada rentang harga menengah. Selain itu terdapat beberapa laptop dengan harga yang jauh lebih tinggi dibandingkan mayoritas data lainnya. Kondisi ini menunjukkan bahwa distribusi harga tidak sepenuhnya merata sehingga perlu dilakukan penanganan outlier pada tahap selanjutnya.
 
@@ -154,7 +154,7 @@ Berdasarkan grafik distribusi harga laptop, terlihat bahwa sebagian besar laptop
 
 Analisis ini dilakukan untuk melihat perbedaan harga rata-rata laptop pada setiap merek.
 
-![Harga Brand](image-6.png)
+![Harga Brand](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-6.png)
 
 Berdasarkan visualisasi yang diperoleh, setiap merek laptop memiliki rata-rata harga yang berbeda. Beberapa merek cenderung memiliki harga yang lebih tinggi karena menawarkan spesifikasi premium, sedangkan merek lainnya memiliki rentang harga yang lebih terjangkau. Hasil ini menunjukkan bahwa fitur brand berpotensi memberikan kontribusi terhadap proses prediksi harga laptop.
 
@@ -162,7 +162,7 @@ Berdasarkan visualisasi yang diperoleh, setiap merek laptop memiliki rata-rata h
 
 Correlation Heatmap digunakan untuk melihat hubungan antar fitur numerik dalam dataset.
 
-![Heatmap](image-7.png)
+![Heatmap](https://github.com/KOPENG123-PIXEL/Laptop-Price-Prediction/blob/main/asset/image-7.png)
 
 Berdasarkan heatmap korelasi, terdapat beberapa fitur yang memiliki hubungan cukup kuat dengan harga laptop. Fitur seperti kapasitas RAM, kapasitas penyimpanan, spesifikasi prosesor, dan kartu grafis menunjukkan korelasi yang lebih tinggi terhadap harga dibandingkan fitur lainnya. Informasi ini penting karena fitur dengan korelasi tinggi biasanya memberikan kontribusi yang lebih besar dalam proses prediksi.
 
