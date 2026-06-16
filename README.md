@@ -355,7 +355,7 @@ Analisis SHAP memberikan interpretasi yang lebih mendalam mengenai bagaimana set
 
 ### Platform: Hugging Face Spaces + Gradio
 
-🔗 **Link Aplikasi:** [https://huggingface.co/spaces/USERNAME/laptop-price-predictor](https://huggingface.co/spaces/USERNAME/laptop-price-predictor)
+🔗 **Link Aplikasi:** [https://huggingface.co/spaces/USERNAME/laptop-price-predictor](https://huggingface.co/spaces/air123123123/laptop-price-prediction)
 
 ### Fitur Aplikasi
 - Form input spesifikasi laptop (brand, prosesor, RAM, storage, GPU, dll.)
